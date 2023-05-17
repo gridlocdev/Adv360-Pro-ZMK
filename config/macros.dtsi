@@ -1,3 +1,39 @@
+macro_ctrl_shift_tab: macro_ctrl_shift_tab{
+compatible = "zmk,behavior-macro";
+label = "macro_ctrl_shift_tab";
+#binding-cells = <0>;
+bindings = <&kt LCTRL>, <&kt LSHIFT>, <&kp TAB>, <&kt LSHIFT>, <&kt LCTRL>;
+};
+macro_ctrl_tab: macro_ctrl_tab{
+compatible = "zmk,behavior-macro";
+label = "macro_ctrl_tab";
+#binding-cells = <0>;
+bindings = <&kt LCTRL>, <&kp TAB>, <&kt LCTRL>;
+};
+macro_alt_shift_up: macro_alt_shift_up{
+compatible = "zmk,behavior-macro";
+label = "macro_alt_shift_up";
+#binding-cells = <0>;
+bindings = <&kt LALT>, <&kt LSHIFT>, <&kp UP_ARROW>, <&kt LSHIFT>, <&kt LALT>;
+};
+macro_alt_shift_down: macro_alt_shift_down{
+compatible = "zmk,behavior-macro";
+label = "macro_alt_shift_down";
+#binding-cells = <0>;
+bindings = <&kt LALT>, <&kt LSHIFT>, <&kp DOWN_ARROW>, <&kt LSHIFT>, <&kt LALT>;
+};
+macro_ctrl_a: macro_ctrl_a{
+compatible = "zmk,behavior-macro";
+label = "macro_ctrl_a";
+#binding-cells = <0>;
+bindings = <&kt LCTRL>, <&kp A>, <&kt LCTRL>;
+};
+macro_ctrl_f: macro_ctrl_f{
+compatible = "zmk,behavior-macro";
+label = "macro_ctrl_f";
+#binding-cells = <0>;
+bindings = <&kt LCTRL>, <&kp F>, <&kt LCTRL>;
+};
 macro_ctrl_z: macro_ctrl_z{
 compatible = "zmk,behavior-macro";
 label = "macro_ctrl_z";

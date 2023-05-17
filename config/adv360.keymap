@@ -59,11 +59,11 @@
 
         layer_fn {
             bindings = <
- &kp F1         &kp F2         &kp F3          &kp F4         &kp F5  &kp F6                  &tog 1                                                                                           &mo 3  &kp F7                  &kp F8                  &kp F9               &kp F10  &kp F11  &kp F12
- &trans         &trans         &trans          &trans         &trans  &trans                   &none                                                                                           &none  &trans                  &trans                  &trans                &trans   &trans   &trans
- &trans         &trans         &trans  &macro_alt_tab         &trans  &trans                   &none            &trans  &trans   &none   &none              &trans         &trans              &none  &trans                  &trans                  &trans  &macro_alt_shift_dot   &trans   &trans
- &trans  &macro_ctrl_z  &macro_ctrl_x   &macro_ctrl_c  &macro_ctrl_v  &trans                   &none             &none  &trans   &none   &none           &kp PG_DN          &none              &none  &trans                  &trans                  &trans                &trans   &trans   &trans
- &trans         &trans         &trans          &trans         &trans                    &kp LEFT_GUI  &kp LEFT_CONTROL  &trans                  &kp K_CONTEXT_MENU  &kp RIGHT_ALT  &kp RIGHT_CONTROL          &macro_ctrl_left_arrow  &macro_ctrl_right_arro                &trans   &trans   &trans
+                &kp F1         &kp F2         &kp F3               &kp F4                 &kp F5  &kp F6                  &tog 1                                                                                           &mo 3  &kp F7                  &kp F8                  &kp F9               &kp F10  &kp F11  &kp F12
+       &macro_ctrl_tab         &trans         &trans               &trans                 &trans  &trans                   &none                                                                                           &none  &trans                  &trans                  &trans                &trans   &trans   &trans
+ &macro_ctrl_shift_tab  &macro_ctrl_a         &trans       &macro_alt_tab          &macro_ctrl_f  &trans                   &none            &trans  &trans   &none   &none              &trans         &trans              &none  &trans                  &trans                  &trans  &macro_alt_shift_dot   &trans   &trans
+                &trans  &macro_ctrl_z  &macro_ctrl_x        &macro_ctrl_c          &macro_ctrl_v  &trans                   &none             &none  &trans   &none   &none           &kp PG_DN          &none              &none  &trans                  &trans                  &trans                &trans   &trans   &trans
+                &trans         &trans         &trans  &macro_alt_shift_up  &macro_alt_shift_down                    &kp LEFT_GUI  &kp LEFT_CONTROL  &trans                  &kp K_CONTEXT_MENU  &kp RIGHT_ALT  &kp RIGHT_CONTROL          &macro_ctrl_left_arrow  &macro_ctrl_right_arro                &trans   &trans   &trans
             >;
         };
 
