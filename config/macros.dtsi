@@ -1,3 +1,9 @@
+macro_ctrl_`: macro_ctrl_`{
+compatible = "zmk,behavior-macro";
+label = "macro_ctrl_`";
+#binding-cells = <0>;
+bindings = <&kt LCTRL>, <&kp TILDE>, <&kt LCTRL>;
+};
 macro_ctrl_shift_down: macro_ctrl_shift_down{
 compatible = "zmk,behavior-macro";
 label = "macro_ctrl_shift_down";
