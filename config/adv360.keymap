@@ -64,7 +64,7 @@
        &macro_ctrl_tab         &trans         &trans               &trans          &macro_ctrl_r  &trans                   &none                                                      &none  &trans                  &trans     &macro_ctrl_shift_i                  &trans   &trans   &trans
  &macro_ctrl_shift_tab  &macro_ctrl_a  &macro_ctrl_s       &macro_alt_tab          &macro_ctrl_f  &trans                   &none     &trans  &trans                  &trans  &trans   &none  &trans                  &trans                  &trans                  &trans   &trans   &trans
                 &trans  &macro_ctrl_z  &macro_ctrl_x        &macro_ctrl_c          &macro_ctrl_v  &trans                                     &trans                  &trans                  &trans   &macro_alt_left_arrow  &macro_alt_right_arrow  &macro_alt_shift_perio   &trans   &trans
-                &trans   &macro_space     &sys_reset  &macro_alt_shift_up  &macro_alt_shift_down                    &kp LEFT_WIN  &kp LCTRL  &trans                  &trans  &trans  &trans          &macro_ctrl_left_arrow  &macro_ctrl_right_arro                  &trans   &trans   &trans
+                &trans   &macro_space         &reset  &macro_alt_shift_up  &macro_alt_shift_down                    &kp LEFT_WIN  &kp LCTRL  &trans                  &trans  &trans  &trans          &macro_ctrl_left_arrow  &macro_ctrl_right_arro                  &reset   &trans   &trans
             >;
         };
 
